@@ -1,0 +1,4 @@
+.env
+funpay.db
+.venv/
+__pycache__/
