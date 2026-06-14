@@ -6,11 +6,9 @@ from aiogram import Bot, Dispatcher, F
 from aiogram.types import Message, CallbackQuery, InlineKeyboardMarkup, InlineKeyboardButton
 import os
 from dotenv import load_dotenv
-
 load_dotenv()
 
 logging.basicConfig(level=logging.INFO)
-
 
 BOT_TOKEN = os.getenv("BOT_TOKEN")
 
